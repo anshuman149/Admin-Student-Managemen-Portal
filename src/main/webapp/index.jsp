@@ -105,7 +105,7 @@
 
     <footer style="background-color: #5cb85c; color: white; padding: 15px 0; position: fixed; bottom: 0; width: 100%; display: flex; justify-content: center; align-items: center;">
         <p style="margin: 0;">Copyright &copy; 2026 Student Portal. All rights reserved.</p>
-        <button class="contact-btn" onclick="location.href='admin.jsp'"style="position: absolute; right: 20px; background: #4cae4c; border: 1px solid white; color: white; padding: 5px 10px; cursor: pointer;">Teacher Portal</button>
+        <button class="contact-btn" onclick="location.href='teacher_portal.jsp'"style="position: absolute; right: 20px; background: #4cae4c; border: 1px solid white; color: white; padding: 5px 10px; cursor: pointer;">Teacher Portal</button>
     </footer>
 
 </body>
