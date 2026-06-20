@@ -20,7 +20,7 @@ public class DenyPaymentServlet extends HttpServlet {
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/student_portal", "root", "123456");
+            Connection con = DriverManager.getConnection("jdbc:mysql://mysql-359b7680-anshusaxena149-a289.l.aivencloud.com:10169/defaultdb?sslMode=REQUIRED", "avnadmin", "AVNS_jwoNr6orQRJ8JWL9863");
 
             // Sirf PAYMENTS table mein status badlo taaki login chalta rahe
             // Hum yahan 'REJECTED' likh rahe hain jo tere JSP mein Red color dikhayega

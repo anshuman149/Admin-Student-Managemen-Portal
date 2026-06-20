@@ -7,7 +7,7 @@ public class DBConnection {
         try {
             if (con == null) {
                 Class.forName("com.mysql.cj.jdbc.Driver");
-                con = DriverManager.getConnection("jdbc:mysql://localhost:3306/student_portal", "root", "123456");
+                Connection con = DriverManager.getConnection("jdbc:mysql://mysql-359b7680-anshusaxena149-a289.l.aivencloud.com:10169/defaultdb?sslMode=REQUIRED", "avnadmin", "AVNS_jwoNr6orQRJ8JWL9863");
             }
         } catch (Exception e) { e.printStackTrace(); }
         return con;

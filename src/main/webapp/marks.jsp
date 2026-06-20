@@ -44,7 +44,7 @@
                             try {
                                 Class.forName("com.mysql.cj.jdbc.Driver");
                                 // FIX: Tera password '123456' hai servlet ke hisaab se
-                                Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/student_portal", "root", "123456");
+                                 Connection conn = DriverManager.getConnection("jdbc:mysql://mysql-359b7680-anshusaxena149-a289.l.aivencloud.com:10169/defaultdb?sslMode=REQUIRED", "avnadmin", "AVNS_jwoNr6orQRJ8JWL9863");
 
                                 String query = "SELECT * FROM marks WHERE enrollment_no = ?";
                                 PreparedStatement ps = conn.prepareStatement(query);

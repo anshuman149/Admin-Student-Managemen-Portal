@@ -66,8 +66,7 @@
                                 String userSem = (String) session.getAttribute("semester");
                                 
                                 Class.forName("com.mysql.cj.jdbc.Driver");
-                                Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/student_portal", "root", "123456");
-                                
+                                Connection con = DriverManager.getConnection("jdbc:mysql://mysql-359b7680-anshusaxena149-a289.l.aivencloud.com:10169/defaultdb?sslMode=REQUIRED", "avnadmin", "AVNS_jwoNr6orQRJ8JWL9863");
                                 String sql = "SELECT * FROM hall_tickets WHERE course_name = ? AND semester = ?";
                                 PreparedStatement ps = con.prepareStatement(sql);
                                 ps.setString(1, userCourse);

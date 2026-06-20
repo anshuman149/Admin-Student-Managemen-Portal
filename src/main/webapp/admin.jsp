@@ -39,7 +39,7 @@
         <%
             try {
                 Class.forName("com.mysql.cj.jdbc.Driver");
-                Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/student_portal", "root", "123456");
+                Connection con = DriverManager.getConnection("jdbc:mysql://mysql-359b7680-anshusaxena149-a289.l.aivencloud.com:10169/defaultdb?sslMode=REQUIRED", "avnadmin", "AVNS_jwoNr6orQRJ8JWL9863");
              // Purani: WHERE s.payment_status = 'PENDING'
              // Nayi Query:
              String query = "SELECT s.enrollment_no, s.full_name, p.amount, p.transaction_id, p.fee_type, p.status " +

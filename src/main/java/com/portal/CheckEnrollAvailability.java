@@ -27,9 +27,9 @@ public class CheckEnrollAvailability extends HttpServlet {
         String enrollID = request.getParameter("enrollID");
 
         // Database Credentials (Apne hisaab se check kar lena)
-        String dbUrl = "jdbc:mysql://localhost:3306/student_portal";
-        String dbUser = "root";
-        String dbPass = "123456";
+        String dbUrl = "jdbc:mysql://mysql-359b7680-anshusaxena149-a289.l.aivencloud.com:10169/defaultdb?sslMode=REQUIRED";
+        String dbUser = "avnadmin";
+        String dbPass = "AVNS_jwoNr6orQRJ8JWL9863";
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
